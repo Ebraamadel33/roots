@@ -1,0 +1,99 @@
+ body {
+            margin: 0;
+            font-family: "Roboto", sans-serif;
+            background-color: #38bd74
+        }
+        .conf {
+            background-color: #38bd74;
+            
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-right: 10px;
+
+        }
+
+        .header-links a{
+            color: black;
+            padding: 0 30px;
+            text-decoration:none ;
+            border-radius: 10px ;
+            font-size: x-large;
+            
+        
+        }
+        .columns {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding-left: 20px;
+            padding-bottom: 20px;
+        }
+
+        .header_article a {
+            color: #000000;
+            padding: 0 30px;
+            text-decoration:none ;
+            border-radius: 10px ;
+            font-size: 100px ;
+            font-family:monospace
+            
+        }
+        .header_article a:hover {
+            background-color: #9e4545;
+            border-radius: 40px;
+
+        }   
+
+        .header-links a:hover {
+            background-color: #219c62;
+
+        }
+        .header-links button{
+            
+        color: white ;
+        background-color:rgb(92, 121, 99);
+            padding: 0 30px;
+            text-decoration:none ;
+            border-radius: 10px;
+            font-size: x-large
+            
+        }
+        .header-links button:hover{
+            background-color: #6fb833;
+        }
+        .image-control {
+            padding 10px 10px;
+            
+        }
+        .margin {
+            margin: 0 ;
+        }
+        .center-text {
+            display: flex;
+            justify-content: center;  
+            align-items: center;    
+        }
+
+        .tany {
+        background-color: #c2782d;
+        border-top-right-radius: 50px;
+        border-top-left-radius: 50px;
+        text-align: center;
+        display: flex;
+        padding-right: 10px;
+        font-size: x-large;
+        
+        
+        }
+        .talt {
+        background-color: #c2782d;
+        border-bottom-right-radius: 50px;
+        border-bottom-left-radius: 50px;
+        text-align: center;
+        display: flex;
+        padding-right: 10px;
+        font-size: x-large;
+        
+        
+        }
